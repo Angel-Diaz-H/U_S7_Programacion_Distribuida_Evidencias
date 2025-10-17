@@ -1,0 +1,107 @@
+/* _content/Pollo-Loco-clone/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/en-us/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-7m6xypkc7l] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a[b-7m6xypkc7l] {
+    color: #0077cc;
+}
+
+.btn-primary[b-7m6xypkc7l] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-7m6xypkc7l], .nav-pills .show > .nav-link[b-7m6xypkc7l] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.border-top[b-7m6xypkc7l] {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-7m6xypkc7l] {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-7m6xypkc7l] {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-7m6xypkc7l] {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+.footer[b-7m6xypkc7l] {
+    /* removed absolute positioning to work with flex layout */
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    margin-bottom: 0; /* ensure no extra gap below footer */
+}
+
+/* Ensure the body uses full height and footer sticks to bottom when page content is short */
+html[b-7m6xypkc7l], body[b-7m6xypkc7l] {
+    height: 100%;
+    /* set a default background similar to the footer so any small gaps don't show white */
+    background-color: #111; 
+}
+
+/* Footer background and text */
+.footer-bg[b-7m6xypkc7l] {
+    background: #222; /* dark background for footer */
+    color: #f8f9fa;
+}
+
+/* Make hr lighter so it blends with dark footer */
+.footer-bg hr[b-7m6xypkc7l] {
+    border-color: rgba(255,255,255,0.06);
+}
+
+/* Remove default bottom margin on last-child elements inside footer that could create gaps */
+.footer-bg .row:last-child[b-7m6xypkc7l],
+.footer-bg .container-fluid > .row:last-child[b-7m6xypkc7l] {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Footer logo placement */
+.footer-logo[b-7m6xypkc7l] {
+    width: 110px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Ensure left column content (logo + nav) aligns horizontally on desktop */
+.footer .col-12.col-md-3[b-7m6xypkc7l] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* hero decorative image (used in Index) */
+.hero-pollo[b-7m6xypkc7l] {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+    .hero-pollo[b-7m6xypkc7l] {
+        margin: 0 auto 15px auto;
+    }
+}
+
+/* If you prefer the logo vertically centered with text, you can use flex utilities in the markup instead. */

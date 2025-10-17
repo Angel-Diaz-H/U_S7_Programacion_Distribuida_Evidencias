@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pollo Loco</title>
+    <link rel="icon" href="~/images/logo.png">
+
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Pollo_Loco_ASP_NET_Core.styles.css" asp-append-version="true" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg bg-red py-2">
+        <div class="container-fluid">
+            <img src="~/images/logo.png" alt="El Pollo Loco" class="logo me-2">
+            <button class="navbar-toggler border-0 ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Menú</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Historia</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Sucursales</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Use full-width container so page sections can span edge-to-edge -->
+    <div class="container-fluid px-0 flex-grow-1">
+        <!-- use px-0 to let sections reach the screen edges; use container/rows inside pages when you want centered content -->
+        <main role="main" class="px-0">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-bg pt-5 pb-3 mt-auto w-100">
+        <!-- removed the extra decorative logo here to avoid overlap; logo is shown inside the left column below -->
+        <!-- inner padding removed so background spans full width; pages can use container inside if needed -->
+        <div class="container-fluid px-0">
+            <div class="row">
+                <div class="col-12 col-md-3 mb-4 mb-md-0">
+                    <img src="~/images/logo.png" alt="El Pollo Loco" class="footer-logo mb-3">
+                    <ul class="list-unstyled footer-list">
+                        <li><a href="#" class="footer-link">Inicio</a></li>
+                        <li><a href="#" class="footer-link">Menú</a></li>
+                        <li><a href="#" class="footer-link">Loca Historia</a></li>
+                        <li><a href="#" class="footer-link">Sucursales</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3 mb-4 mb-md-0">
+                    <div class="footer-list-title">Facturación</div>
+                    <ul class="list-unstyled footer-list">
+                        <li><a href="#" class="footer-link">Bolsa de trabajo</a></li>
+                        <li><a href="#" class="footer-link">Aviso de Privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3 mb-4 mb-md-0">
+                    <div class="footer-list-title"><i class="bi bi-telephone"></i> 800 999 LOCO</div>
+                    <form class="d-flex flex-column gap-2">
+                        <input type="email" class="form-control" placeholder="Tu correo electrónico">
+                        <button class="btn btn-danger" type="submit">Suscribirme al boletín</button>
+                    </form>
+                    <small class="d-block mt-2">Tus datos están protegidos. Conoce nuestra <a href="#" class="footer-link">Política de Privacidad</a></small>
+                </div>
+                <div class="col-12 col-md-3">
+                    <!-- Espacio para diseño -->
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-12 col-md-6 footer-legal">
+                    ©2025 POLLO LOCO. Todos los derechos reservados.
+                </div>
+                <div class="col-12 col-md-6 footer-dev">
+                    Desarrollado por <b>factoridea®</b>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

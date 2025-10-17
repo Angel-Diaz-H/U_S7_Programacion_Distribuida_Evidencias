@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Hero -->
+<section class="bg-red text-white text-center" style="position:relative;">
+    <div class="container">
+        <div class="row align-items-center">
+            <h src="~/images/logo.png" alt="El Pollo Loco" class="logo mb-3 d-md-none">
+                <h2 class="fw-bold" style="font-size:2.5rem; letter-spacing:-1px;">50 AÑOS DE <span style="color:#ffe600;">SABOR ÚNICO</span> PARA TU FAMILIA</h2>
+        </div>
+        <div class="">
+            <img src="~/images/50-anios.jpg" alt="50 Aniversario" class="img-fluid" style="max-width:95%;">
+        </div>
+    </div>
+</section>
+
+<!-- Favoritos -->
+<section class="py-5 bg-white">
+    <div class="container">
+        <h2 class="fw-bold text-center mb-4" style="font-size:2.2rem;">Los favoritos</h2>
+        <div class="row g-4 justify-content-center">
+            <div class="col-12 col-md-6 col-lg-5">
+                <img src="~/images/burrito1.jpg" alt="Burrito" class="favoritos-img">
+            </div>
+            <div class="col-12 col-md-7 col-lg-5 d-flex flex-column gap-4">
+                <img src="~/images/ensalada.jpg" alt="Codito" class="favoritos-img">
+                <img src="~/images/fav3.jpg" alt="Combo Familiar" class="favoritos-img">
+            </div>
+        </div>
+    </div>
+    <!-- WhatsApp floating -->
+    <div class="whatsapp-btn">
+        <a href="https://wa.me/512345678900" target="_blank">
+            <img src="~/images/whatsapp.png" alt="WhatsApp">
+        </a>
+    </div>
+</section>
+
+<!-- Menú -->
+<section class="py-5 bg-white">
+    <div class="container">
+        <h2 class="fw-bold text-center mb-4" style="font-size:2.2rem;">El menú</h2>
+        <ul class="nav nav-tabs justify-content-center menu-tabs mb-4" id="menuTabs">
+            <li class="nav-item"><a class="nav-link active" href="#">Pollo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Combos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Complementos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Especiales</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Postres</a></li>
+        </ul>
+        <div class="row text-center">
+            <div class="col-12 col-md-4 mb-4">
+                <div class="menu-card">
+                    <img src="~/images/pollopaq1.png" alt="Un Pollo Loco">
+                    <div class="menu-card-title mt-3">Un Pollo Loco</div>
+                    <div class="menu-card-desc">8 piezas</div>
+                    <div class="menu-card-desc">Incluye salsas, totopos y tortillas</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="menu-card">
+                    <img src="~/images/pollopaq2.png" alt="Medio Pollo Loco">
+                    <div class="menu-card-title mt-3">Medio Pollo Loco</div>
+                    <div class="menu-card-desc">4 piezas</div>
+                    <div class="menu-card-desc">Incluye salsas, totopos y tortillas</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="menu-card">
+                    <img src="~/images/pollopaq3.png" alt="Cuarto de Pollo Loco">
+                    <div class="menu-card-title mt-3">Cuarto de Pollo Loco</div>
+                    <div class="menu-card-desc">2 piezas</div>
+                    <div class="menu-card-desc">Incluye salsas, totopos y tortillas</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Delivery CTA -->
+<section class="bg-red text-white py-5 delivery-section">
+    <img src="~/images/polloblanco.png" alt="Pollo blanco" class="hero-pollo">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 text-center text-md-start mb-4 mb-md-0">
+                <img src="~/images/celular.png" alt="App Pollo Loco" class="img-fluid" style="max-width:500px;">
+            </div>
+            <div class="col-12 col-md-6 text-center text-md-end">
+                <h3 class="fw-bold mb-3">Acaba con tu antojo de un clic</h3>
+                <a href="#" class="rappi-btn">Rappi</a>
+                <a href="#" class="didi-btn">DiDiFood</a>
+                <a href="#" class="uber-btn">Uber Eats</a>
+            </div>
+        </div>
+    </div>
+</section>
