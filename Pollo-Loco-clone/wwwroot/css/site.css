@@ -18,6 +18,7 @@ html {
 }
 
 body {
+  /* removed bottom margin to avoid white gap under footer */
   margin-bottom: 0;
 }
 
@@ -28,4 +29,24 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+/* Historia page styles */
+.hero-historia {
+  background-image: url('/images/historia-hero.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.historia-content h3, .historia-content h4 {
+  color: #222;
+}
+
+.cta-red {
+  background-image: url('/images/pattern-red.jpg');
+  background-size: cover;
+}
+
+.footer-link {
+  color: #ffd700;
 }

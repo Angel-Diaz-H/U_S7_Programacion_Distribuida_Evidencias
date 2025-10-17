@@ -5,7 +5,7 @@ using Pollo_Loco_clone.Models;
 namespace Pollo_Loco_clone.Controllers
 {
     public class HomeController : Controller
-    {
+       {
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -19,6 +19,11 @@ namespace Pollo_Loco_clone.Controllers
         }
 
         public IActionResult Ayuda()
+        {
+            return View();
+        }
+
+        public IActionResult Historia()
         {
             return View();
         }

@@ -23,9 +23,9 @@
             </button>
             <div class="collapse navbar-collapse" id="mainNav">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" asp-controller="Home" asp-action="Index">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#">Menú</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Historia</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" asp-controller="Home" asp-action="Historia">Historia</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#">Sucursales</a></li>
                 </ul>
             </div>
@@ -49,9 +49,9 @@
                 <div class="col-12 col-md-3 mb-4 mb-md-0">
                     <img src="~/images/logo.png" alt="El Pollo Loco" class="footer-logo mb-3">
                     <ul class="list-unstyled footer-list">
-                        <li><a href="#" class="footer-link">Inicio</a></li>
+                        <li><a href="/" class="footer-link">Inicio</a></li>
                         <li><a href="#" class="footer-link">Menú</a></li>
-                        <li><a href="#" class="footer-link">Loca Historia</a></li>
+                        <li><a class="footer-link" asp-controller="Home" asp-action="Historia">Loca Historia</a></li>
                         <li><a href="#" class="footer-link">Sucursales</a></li>
                     </ul>
                 </div>

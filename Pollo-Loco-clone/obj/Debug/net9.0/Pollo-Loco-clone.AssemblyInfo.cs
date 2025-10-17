@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pollo-Loco-clone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34352a6f2b96629471b1bcec7a571d9a8f13193e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+147f24ed50eeddfc2f66718d4742ccda25b587d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pollo-Loco-clone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pollo-Loco-clone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

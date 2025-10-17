@@ -6,6 +6,11 @@ wwwroot\images\burrito1.jpg
 wwwroot\images\celular.png
 wwwroot\images\ensalada.jpg
 wwwroot\images\fav3.jpg
+wwwroot\images\historia-1.jpg
+wwwroot\images\historia-2.jpg
+wwwroot\images\historia-3.jpg
+wwwroot\images\historia-4.jpg
+wwwroot\images\historia-5.png
 wwwroot\images\logo.png
 wwwroot\images\polloblanco.png
 wwwroot\images\pollopaq1.png
@@ -73,8 +78,6 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\wwwroot\css\site.css
-C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\wwwroot\css\styles.css
 C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\wwwroot\favicon.ico
 C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\wwwroot\js\site.js
 C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -136,3 +139,5 @@ C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Lo
 C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\wwwroot\css\site.css
+C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\wwwroot\css\styles.css

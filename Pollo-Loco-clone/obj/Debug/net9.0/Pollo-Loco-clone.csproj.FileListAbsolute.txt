@@ -94,6 +94,6 @@ C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Lo
 C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\obj\Debug\net9.0\Pollo-Loco-clone.genruntimeconfig.cache
 C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\obj\Debug\net9.0\ref\Pollo-Loco-clone.dll
 C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\obj\Debug\net9.0\compressed\2o0a3kakt6-6qlvlszi00.gz
-C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\obj\Debug\net9.0\compressed\bz73h40gr7-c34cgnnusg.gz
 C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\obj\Debug\net9.0\compressed\hp49q0rh3k-qtnkzk4wh0.gz
 C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\obj\Debug\net9.0\compressed\yz9jfyidtb-qtnkzk4wh0.gz
+C:\Users\angel\Local\Proyectos\U_S7_Programacion_Distribuida_Evidencias\Pollo-Loco-clone\obj\Debug\net9.0\compressed\bz73h40gr7-38vz2pcda3.gz
