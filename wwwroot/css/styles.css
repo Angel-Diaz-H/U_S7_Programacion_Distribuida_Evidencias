@@ -1,0 +1,197 @@
+@import "bootstrap/scss/bootstrap";
+
+body {
+    background: #fff;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.bg-red {
+    background: #e30613;
+}
+
+.logo {
+    width: 200px;
+}
+
+.menu-btn {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.favoritos-img {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    box-shadow: 0 4px 16px #0002;
+}
+
+.menu-tabs .nav-link.active {
+    color: #e30613 !important;
+    border-bottom: 3px solid #ffe600 !important;
+    font-weight: bold;
+    background: none !important;
+}
+
+.menu-tabs .nav-link {
+    color: #444;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.footer-bg {
+    background: #222;
+    color: #fff;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+    .footer-link:hover {
+        text-decoration: underline;
+    }
+
+.footer-logo {
+    width: 120px;
+}
+
+.footer-section-title {
+    color: #ffe600;
+    font-weight: bold;
+}
+
+.whatsapp-btn {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    z-index: 1000;
+}
+
+    .whatsapp-btn img {
+        width: 48px;
+    }
+
+.rappi-btn, .didi-btn, .uber-btn {
+    border-radius: 20px;
+    padding: 8px 20px;
+    background: #fff;
+    margin: 0 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.rappi-btn {
+    background: #ff4d00;
+    color: #fff;
+}
+
+.didi-btn {
+    background: #f7b731;
+    color: #fff;
+}
+
+.uber-btn {
+    background: #00c291;
+    color: #fff;
+}
+
+.footer-legal {
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+.footer-dev {
+    font-size: 0.9rem;
+    color: #bbb;
+    text-align: right;
+}
+
+.menu-card img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px #0001;
+}
+
+.menu-card {
+    border: none;
+    background: transparent;
+}
+
+.menu-card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.menu-card-desc {
+    color: #888;
+}
+
+.footer-list-title {
+    color: #ffe600;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.footer-list {
+    margin-bottom: 1rem;
+}
+
+    .footer-list li {
+        margin-bottom: 0.3rem;
+    }
+
+.footer-pollo {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+}
+
+.delivery-section {
+    position: relative;
+    overflow: hidden;
+}
+
+    .delivery-section .footer-pollo {
+        left: 2%;
+        bottom: 10px;
+        width: 80px;
+    }
+
+.footer-bg {
+    position: relative;
+}
+
+    .footer-bg .footer-pollo {
+        left: 2%;
+        bottom: 10px;
+        width: 80px;
+    }
+
+    .footer-bg hr {
+        border-color: #444;
+    }
+
+    .footer-bg small {
+        color: #bbb;
+    }
+
+    .footer-bg .footer-link {
+        color: #ffe600;
+    }
+
+        .footer-bg .footer-link:hover {
+            color: #fff;
+        }
+
+@media (max-width: 767px) {
+    .footer-dev {
+        text-align: left;
+        margin-top: 1rem;
+    }
+
+    .footer-pollo {
+        display: none;
+    }
+}
